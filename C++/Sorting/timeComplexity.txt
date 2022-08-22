@@ -1,0 +1,124 @@
+n = 100000
+
+
+Sort Name: bubblesort
+Time taken by sorting function: 28119290 microseconds
+  -99988.5500     -75.0434     -18.7776      -8.3119
+      -4.0293       0.0002       4.1046       8.3399
+      18.7522      74.0447
+              # of Compares = 1409865409                # of Copies = -1090066271
+     Relative # of Compares = 14098.6541       Relative # of Copies = -10900.6627
+Average Time: 17786141
+
+
+Sort Name: selectsort
+Time taken by sorting function: 10281850 microseconds
+  -99988.5500     -75.0434     -18.7776      -8.3119
+      -4.0293       0.0002       4.1046       8.3399
+      18.7522      74.0447
+              # of Compares = 704982704                # of Copies = 299955
+     Relative # of Compares = 7049.8270       Relative # of Copies = 2.9996
+Average Time: 10099449
+
+
+Sort Name: insertsort
+Time taken by sorting function: 5291628 microseconds
+  -99988.5500     -75.0434     -18.7776      -8.3119
+      -4.0293       0.0002       4.1046       8.3399
+      18.7522      74.0447
+              # of Compares = -1794911190                # of Copies = -1794711192
+     Relative # of Compares = -17949.1119       Relative # of Copies = -17947.1119
+Average Time: 384
+
+
+Sort Name: shellsort
+Time taken by sorting function: 16848 microseconds
+  -99988.0000     -75.0000     -18.0000      -8.0000
+      -4.0000       0.0000       4.0000       8.0000
+      18.0000      74.0000
+              # of Compares = 2269308                # of Copies = 3000044
+     Relative # of Compares = 22.6931       Relative # of Copies = 30.0004
+Average Time: 6562
+
+
+Sort Name: quicksort
+Time taken by sorting function: 14058 microseconds
+  -99988.5500     -75.0434     -18.7776      -8.3119
+      -4.0293       0.0002       4.1046       8.3399
+      18.7522      74.0447
+              # of Compares = 2165064                # of Copies = 1179186
+     Relative # of Compares = 21.6506       Relative # of Copies = 11.7919
+Average Time: 10186574
+
+
+Sort Name: improved bubblesort
+Time taken by sorting function: 20210600 microseconds
+  -99988.5500     -75.0434     -18.7776      -8.3119
+      -4.0293       0.0002       4.1046       8.3399
+      18.7522      74.0447
+              # of Compares = 147586738                # of Copies = -1090066271
+     Relative # of Compares = 1475.8674       Relative # of Copies = -10900.6627
+Average Time: 204
+
+
+Sort Name: mergesort
+Time taken by sorting function: 13505 microseconds
+  -99988.0000     -75.0000     -18.0000      -8.0000
+      -4.0000       0.0000       4.0000       8.0000
+      18.0000      74.0000
+              # of Compares = 3943554                # of Copies = 1868946
+     Relative # of Compares = 39.4355       Relative # of Copies = 18.6895
+Average Time: 9236
+
+
+Sort Name: heapsort
+Time taken by sorting function: 29775 microseconds
+  -99988.5500     -75.0434     -18.7776      -8.3119
+      -4.0293       0.0002       4.1046       8.3399
+      18.7522      74.0447
+              # of Compares = 2887322                # of Copies = 5366093
+     Relative # of Compares = 28.8732       Relative # of Copies = 53.6609
+Average Time: 22021
+
+
+Sort Name: algorithm.h/sort
+Time taken by sorting function: 5713 microseconds
+  -99988.5500     -75.0434     -18.7776      -8.3119
+      -4.0293       0.0002       4.1046       8.3399
+      18.7522      74.0447
+              # of Compares = 0                # of Copies = 0
+     Relative # of Compares = 0.0000       Relative # of Copies = 0.0000
+Average Time: 104
+
+
+Sort Name: algorithm.h/stable_sort
+Time taken by sorting function: 23875 microseconds
+  -99988.5500     -75.0434     -18.7776      -8.3119
+      -4.0293       0.0002       4.1046       8.3399
+      18.7522      74.0447
+              # of Compares = 0                # of Copies = 0
+     Relative # of Compares = 0.0000       Relative # of Copies = 0.0000
+Average Time: 5130
+
+
+
+Search Name: sequential search
+Time taken by sorting function: 229 microseconds
+Average Time: 199
+
+
+Search Name: binary search
+Time taken by sorting function: 0 microseconds
+Average Time: 0
+
+Sorts Organized By Time In Microseconds:
+algorithm.h/sort 104
+improved bubblesort 204
+insertsort 384
+algorithm.h/stable_sort 5130
+shellsort 6562
+mergesort 9236
+heapsort 22021
+selectsort 10099449
+quicksort 10186574
+bubblesort 17786141
